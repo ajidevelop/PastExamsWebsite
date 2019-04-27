@@ -1,0 +1,27 @@
+@import "variables";
+
+header {
+  background-color: $maroon;
+  height: 10vh;
+
+  nav {
+    padding: 1% 5vw;
+    align-content: center;
+
+    button {
+      color: $white;
+      border-radius: 10px;
+      border-color: $black;
+      display: inline-block;
+      cursor: pointer;
+      padding: 15px 60px;
+      background-color: $maroon;
+
+      &:hover {
+        background-color: $grey;
+        color: $white;
+      }
+
+    }
+  }
+}

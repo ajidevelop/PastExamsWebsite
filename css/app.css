@@ -1,0 +1,42 @@
+header {
+  background-color: #500000;
+  height: 10vh;
+}
+header nav {
+  padding: 1% 5vw;
+  align-content: center;
+}
+header nav button {
+  color: #fff;
+  border-radius: 10px;
+  border-color: #000;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 60px;
+  background-color: #500000;
+}
+header nav button:hover {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #D6D3C4;
+}
+
+div {
+  width: 100%;
+  height: 15%;
+}
+div .search-bar {
+  margin: auto;
+  border-radius: 5px;
+  width: 70%;
+  height: 4vh;
+}
+
+/*# sourceMappingURL=app.css.map */
